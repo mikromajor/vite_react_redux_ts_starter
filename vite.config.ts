@@ -7,7 +7,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     open: true,
-    hmr: true,
+    // hmr: true,
+    watch: {
+      usePolling: true,
+    },
   },
   test: {
     globals: true,
