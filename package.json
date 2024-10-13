@@ -2,6 +2,7 @@
   "name": "alco_calendar__client",
   "private": true,
   "version": "0.1.0",
+    "author": "Alex Solianyk",
   "type": "module",
   "scripts": {
     "start": "vite",
