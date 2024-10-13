@@ -2,10 +2,13 @@ import "./App.css"
 import { Counter } from "./features/counter/Counter"
 import { Quotes } from "./features/quotes/Quotes"
 import logo from "./logo.svg"
+import { Button } from "./app/button"
 
 const App = () => {
   return (
     <div className="App">
+      <Button />
+      <Button />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
