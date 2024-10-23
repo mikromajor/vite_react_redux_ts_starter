@@ -1,7 +1,8 @@
 {
-  "name": "alco_calendar__client",
+  "name": "vite-react-redux-ts-starter",
   "private": true,
   "version": "0.1.0",
+    "author": "Alex Solianyk",
   "type": "module",
   "scripts": {
     "start": "vite",
