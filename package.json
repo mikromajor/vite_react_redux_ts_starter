@@ -2,7 +2,7 @@
   "name": "vite-react-redux-ts-starter",
   "private": true,
   "version": "0.1.0",
-    "author": "Alex Solianyk",
+  "author": "Alex Solianyk",
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -21,6 +21,7 @@
     "@reduxjs/toolkit": "^2.2.8",
     "@types/node": "^22.7.5",
     "@types/react-redux": "^7.1.34",
+    "@vitejs/create-app": "^2.5.2",
     "@vitejs/plugin-react": "^4.3.2",
     "@vitejs/plugin-react-swc": "^3.7.1",
     "axios": "^1.7.7",
