@@ -1,5 +1,6 @@
 {
-  "name": "docker-vite-react-redux-ts-starter",
+  "name": "client-side-starter",
+"description": "docker-vite-react-redux-ts",
   "private": true,
   "version": "0.1.0",
   "author": "Alex Solianyk",
