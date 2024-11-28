@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-redux-ts-starter",
+  "name": "docker-vite-react-redux-ts-starter",
   "private": true,
   "version": "0.1.0",
   "author": "Alex Solianyk",
@@ -15,22 +15,11 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@emotion/babel-plugin": "^11.12.0",
-    "@mui/material": "^6.1.3",
-    "@mui/x-date-pickers": "^7.20.0",
-    "@reduxjs/toolkit": "^2.2.8",
-    "@types/node": "^22.7.5",
-    "@types/react-redux": "^7.1.34",
-    "@vitejs/create-app": "^2.5.2",
-    "@vitejs/plugin-react": "^4.3.2",
-    "@vitejs/plugin-react-swc": "^3.7.1",
     "axios": "^1.7.7",
     "dayjs": "^1.11.13",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "react-redux": "^8.1.0",
-    "vite": "^5.4.8",
-    "vite-tsconfig-paths": "^5.0.1"
+    "react-redux": "^8.1.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^9.3.4",
@@ -43,7 +32,6 @@
     "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
-    "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-v8": "^2.1.2",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
@@ -55,7 +43,17 @@
     "prettier": "^3.3.3",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.3",
-    "vite": "^5.0.11",
-    "vitest": "^2.1.2"
+    "vite": "^5.4.8",
+    "vitest": "^2.1.2",
+    "@emotion/babel-plugin": "^11.12.0",
+    "@mui/material": "^6.1.3",
+    "@mui/x-date-pickers": "^7.20.0",
+    "@reduxjs/toolkit": "^2.2.8",
+    "@types/node": "^22.7.5",
+    "@types/react-redux": "^7.1.34",
+    "@vitejs/create-app": "^2.5.2",
+    "@vitejs/plugin-react": "^4.3.2",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "vite-tsconfig-paths": "^5.0.1"
   }
 }
